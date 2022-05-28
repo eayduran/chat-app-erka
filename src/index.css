@@ -15,7 +15,7 @@
 .chat-list {
   width: 650px;
   height: 400px;
-  background-color: bisque;
+  background-color: rgb(180, 180, 180);
   overflow: hidden;
 }
 
@@ -33,7 +33,9 @@
 }
 
 .chat-list .chat-item {
-  background-color: #72a5d2;
+  /* background-color: #72a5d2; */
+  background-color: #1f2c33;
+  color: #edeff2;
   display: inline-flex;
   padding: 6px;
   border-radius: 5px;
@@ -47,4 +49,8 @@
 
 .chat-item-container.from-me {
   justify-content: flex-end;
+}
+
+.chat-item.from-me {
+  background-color: #015d4b;
 }
