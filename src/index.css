@@ -25,6 +25,8 @@
 }
 
 .form-container input {
+  margin-top: 20px;
+  border-radius: 10px;
   width: 100%;
   outline: solid 1px #ddd;
   padding: 10px 0;
