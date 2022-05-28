@@ -13,7 +13,7 @@ function ChaList() {
             key={i}
             className={`chat-item-container ${item.isFromMe ? "from-me" : ""}`}
           >
-            <div className="chat-item">{item.text}</div>
+            <div className={`chat-item ${item.isFromMe ? "from-me" : ""}`}>{item.text}</div>
           </div>
         ))}
       </ScrollableFeed>
